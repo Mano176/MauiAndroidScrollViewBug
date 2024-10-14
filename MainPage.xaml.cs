@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace MauiAndroidScrollViewBug
+namespace MauiAndroidListViewBug
 {
     public partial class MainPage : ContentPage
     {

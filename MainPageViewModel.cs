@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows.Input;
 
-namespace MauiAndroidScrollViewBug
+namespace MauiAndroidListViewBug
 {
     public class MainPageViewModel : INotifyPropertyChanged
     {

@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace MauiAndroidScrollViewBug
+namespace MauiAndroidListViewBug
 {
     public class Program
     {

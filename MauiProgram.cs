@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace MauiAndroidScrollViewBug
+namespace MauiAndroidListViewBug
 {
     public static class MauiProgram
     {

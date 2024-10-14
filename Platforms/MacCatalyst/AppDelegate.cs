@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace MauiAndroidScrollViewBug
+namespace MauiAndroidListViewBug
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

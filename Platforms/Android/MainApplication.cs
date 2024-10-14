@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace MauiAndroidScrollViewBug
+namespace MauiAndroidListViewBug
 {
     [Application]
     public class MainApplication : MauiApplication

@@ -1,4 +1,4 @@
-﻿namespace MauiAndroidScrollViewBug
+﻿namespace MauiAndroidListViewBug
 {
     public partial class App : Application
     {

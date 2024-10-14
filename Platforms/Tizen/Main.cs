@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace MauiAndroidScrollViewBug
+namespace MauiAndroidListViewBug
 {
     internal class Program : MauiApplication
     {
