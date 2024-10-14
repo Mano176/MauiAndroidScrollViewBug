@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiAndroidScrollViewBug"
+             x:Class="MauiAndroidScrollViewBug.MainPage"
+             x:DataType="local:MainPageViewModel">
+
+    <Grid RowDefinitions="*,Auto,Auto"
+          ColumnDefinitions="*">
+        <ListView ItemsSource="{Binding Items}"
+                  Scrolled="ListView_Scrolled"
+                  Grid.Row="0"
+                  Grid.Column="0" />
+
+        <Label Grid.Row="1"
+               Grid.Column="0"
+               Text="{Binding ScrollY}"
+               HorizontalOptions="Center"/>
+
+        <Button Text="Remove most items"
+                Command="{Binding Command}"
+                Grid.Row="2"
+                Grid.Column="0" />
+    </Grid>
+
+</ContentPage>
